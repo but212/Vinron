@@ -1,4 +1,5 @@
-Copyright (c) 2018, Jeong-il Seok (wjddlf211@naver.com).
+Copyright (c) 2018, Jeong-il Seok (wjddlf211@naver.com),
+with Reserved Font Name 'Vinron'.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
