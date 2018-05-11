@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1518945957
-ModificationTime: 1525528130
+ModificationTime: 1526027504
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -48,7 +48,7 @@ Lookup: 4 0 1 "Base ligature" { "about f"  } ['liga' ('DFLT' <'dflt' > 'grek' <'
 Lookup: 258 0 0 "Kerning" { "Latin Capital" [150,15,0] "Latin Small" [150,15,0] "Special" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'cans' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 7 19 "Special"
+KernClass2: 7 20 "Special"
  5 space
  20 quotedbl quotesingle
  6 exclam
@@ -57,7 +57,7 @@ KernClass2: 7 19 "Special"
  12 comma period
  41 f t longs f_f f_i f_l f_f_i f_f_l longs_t
  354 B D E F H I K L M N P R b h i k l p Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Dcaron Emacron Ebreve Edotaccent Ecaron Hcircumflex hcircumflex Imacron Ibreve Idotaccent IJ ij Kcommaaccent kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Nacute Ncommaaccent Ncaron Racute Rcommaaccent Rcaron
- 259 c d e g o q s eacute ecircumflex edieresis oacute ocircumflex otilde odieresis cacute ccircumflex cdotaccent ccaron dcaron emacron ebreve edotaccent eogonek ecaron gcircumflex gbreve gdotaccent gcommaaccent omacron ohungarumlaut oe sacute scircumflex scedilla
+ 263 c d e g o q s eacute ecircumflex edieresis oacute ocircumflex otilde odieresis cacute ccircumflex cdotaccent ccaron dcaron emacron ebreve edotaccent eogonek ecaron gcircumflex gbreve gdotaccent gcommaaccent omacron ohungarumlaut oe sacute scircumflex scedilla s_t
  69 A Agrave Aacute Acircumflex Atilde Adieresis Aring AE Amacron Aogonek
  13 j jcircumflex
  6 hyphen
@@ -73,7 +73,8 @@ KernClass2: 7 19 "Special"
  56 a aacute acircumflex atilde adieresis ae amacron aogonek
  3 V W
  30 u uacute ucircumflex udieresis
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -20 {} -40 {} 0 {} 0 {} -20 {} -40 {} -40 {} -60 {} -20 {} -80 {} -40 {} -20 {} -80 {} -20 {} -80 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} -40 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} 20 {} -20 {} 0 {} -20 {} 0 {} 0 {} -40 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -40 {} -80 {} 0 {} 0 {} -80 {} 0 {} -80 {} -20 {}
+ 15 v w wcircumflex
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -20 {} -40 {} 0 {} 0 {} -20 {} -40 {} -40 {} -60 {} -20 {} -80 {} -40 {} -20 {} -80 {} -20 {} -80 {} -40 {} -80 {} 0 {} 0 {} 0 {} -40 {} -80 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} -40 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -40 {} 0 {} 20 {} -20 {} 0 {} -20 {} 0 {} -20 {} 0 {} -40 {} 0 {} -20 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -40 {} -80 {} 0 {} 0 {} -80 {} 0 {} -80 {} -20 {} -80 {}
 KernClass2: 12 12 "Latin Small"
  3 v w
  1 x
@@ -87,7 +88,7 @@ KernClass2: 12 12 "Latin Small"
  1 k
  19 z zacute zdotaccent
  1 x
- 179 c d e g o q s ccedilla eacute ecircumflex edieresis oacute ocircumflex odieresis cacute ccircumflex cdotaccent dcaron dcroat edotaccent eogonek gcircumflex gdotaccent gcommaaccent
+ 183 c d e g o q s ccedilla eacute ecircumflex edieresis oacute ocircumflex odieresis cacute ccircumflex cdotaccent dcaron dcroat edotaccent eogonek gcircumflex gdotaccent gcommaaccent s_t
  18 y yacute ydieresis
  15 v w wcircumflex
  1 T
@@ -113,7 +114,7 @@ KernClass2: 11 21 "Latin Capital"
  56 A Aacute Acircumflex Atilde Adieresis AE Amacron Aogonek
  263 B D E F H I K L M N P R h i k Egrave Eacute Ecircumflex Edieresis Iacute Emacron Ebreve Edotaccent Ecaron Hcircumflex hcircumflex Idotaccent IJ ij Kcommaaccent kcommaaccent Lacute lacute Lcommaaccent lcommaaccent Lcaron lcaron Ldot ldot Racute Rcommaaccent Rcaron
  1 X
- 141 c d e g o q s ccedilla eacute ecircumflex edieresis cacute ccircumflex cdotaccent dcaron omacron ohungarumlaut oe sacute scircumflex scedilla
+ 145 c d e g o q s ccedilla eacute ecircumflex edieresis cacute ccircumflex cdotaccent dcaron omacron ohungarumlaut oe sacute scircumflex scedilla s_t
  1 x
  8 T Tcaron
  15 v w wcircumflex
@@ -129,7 +130,7 @@ KernClass2: 11 21 "Latin Capital"
  20 quotedbl quotesingle
  19 z zacute zdotaccent
  45 u uacute ucircumflex udieresis utilde umacron
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -40 {} -40 {} -20 {} -20 {} 0 {} 0 {} 0 {} -80 {} -20 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -30 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 20 {} -20 {} -80 {} 0 {} -20 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} -40 {} 20 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -80 {} 0 {} 20 {} -80 {} -60 {} 20 {} -60 {} -60 {} -20 {} -20 {} -60 {} -60 {} -80 {} 0 {} -30 {} -80 {} 0 {} -60 {} -80 {} 0 {} 0 {} -80 {} 0 {} -40 {} -40 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} -20 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -40 {} 0 {} -80 {} -40 {} -40 {} 0 {} 0 {} -20 {} 0 {} -40 {} -100 {} -30 {} 0 {} -200 {} 0 {} 0 {} 0 {} 20 {} -80 {} 0 {} 20 {} -80 {} 0 {} 20 {} 0 {} 0 {} -20 {} -20 {} -80 {} -80 {} -40 {} 20 {} -30 {} -80 {} 0 {} -80 {} -80 {} 0 {} 20 {} 20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -40 {} -40 {} -20 {} -20 {} 0 {} 0 {} 0 {} -80 {} -20 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -30 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} -20 {} 0 {} 20 {} -20 {} -80 {} 0 {} -20 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} -20 {} 0 {} 0 {} 0 {} 0 {} -40 {} 20 {} -30 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} -80 {} 0 {} 20 {} -80 {} -60 {} 20 {} -60 {} -60 {} -20 {} -20 {} -80 {} -80 {} -80 {} 0 {} -30 {} -80 {} 0 {} -60 {} -80 {} 0 {} 0 {} -80 {} 0 {} -40 {} -40 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -20 {} -20 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -40 {} 0 {} -80 {} -40 {} -40 {} 0 {} 0 {} -20 {} 0 {} -40 {} -100 {} -30 {} 0 {} -200 {} 0 {} 0 {} 0 {} 20 {} -80 {} 0 {} 20 {} -80 {} 0 {} 20 {} 0 {} 0 {} -20 {} -20 {} -80 {} -80 {} -40 {} 20 {} -30 {} -80 {} 0 {} -80 {} -80 {} 0 {} 20 {} 20 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2018, Jeong-il Seok (wjddlf211@naver.com),+AAoA-with Reserved Font Name Vinron.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -137,7 +138,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 62 31 12
+WinInfo: 31 31 12
 BeginPrivate: 1
 BlueValues 23 [-20 0 540 560 740 760]
 EndPrivate
@@ -156,7 +157,7 @@ Grid
   Named: "Capital Height"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 399
+BeginChars: 65536 400
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -219,12 +220,10 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 3
-Width: 360
+Width: 320
 VWidth: 0
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -415,12 +414,10 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 12
-Width: 360
+Width: 320
 VWidth: 0
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: equal
@@ -1054,7 +1051,6 @@ SplineSet
  339 610 l 1
  199 610 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: l
@@ -1478,7 +1474,6 @@ SplineSet
  339 610 l 1
  199 610 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: f
@@ -3615,7 +3610,6 @@ LayerCount: 2
 Fore
 Refer: 53 106 N 1 0 0 1 240 0 2
 Refer: 37 105 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: dotlessj
@@ -9325,6 +9319,29 @@ SplineSet
  546 402 609 450 609 545 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uni02F8
+Encoding: 760 760 399
+Width: 300
+Flags: W
+HStem: 100 130<125 239> 530 130<208 323>
+VStem: 99 249
+DStem2: 99 100 239 100 0.190809 0.981627<26.7133 132.573 464.841 570.509>
+LayerCount: 2
+Fore
+SplineSet
+183 530 m 1
+ 208 660 l 1
+ 348 660 l 1
+ 323 530 l 1
+ 183 530 l 1
+99 100 m 1
+ 125 230 l 1
+ 265 230 l 1
+ 239 100 l 1
+ 99 100 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
