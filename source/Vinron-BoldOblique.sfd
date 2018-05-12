@@ -2,10 +2,10 @@ SplineFontDB: 3.0
 FontName: Vinron-BoldOblique
 FullName: Vinron Bold Oblique
 FamilyName: Vinron
-Weight: Bold
+Weight: Bold Italic
 Copyright: Copyright (c) 2018, Jeong-il Seok
 UComments: "2018-2-18: Created with FontForge (http://fontforge.org)"
-Version: 1.000
+Version: 1.001
 ItalicAngle: -11
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -17,13 +17,12 @@ Layer: 0 0 "+tLe6dAAA" 1
 Layer: 1 0 "+xV66dAAA" 0
 PreferredKerning: 4
 XUID: [1021 752 363211294 2835]
-StyleMap: 0x0021
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1518945957
-ModificationTime: 1526027504
+ModificationTime: 1526086989
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -138,7 +137,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 31 31 12
+WinInfo: 0 31 12
 BeginPrivate: 1
 BlueValues 23 [-20 0 540 560 740 760]
 EndPrivate
@@ -224,6 +223,8 @@ Width: 320
 VWidth: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -418,6 +419,8 @@ Width: 320
 VWidth: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: equal
@@ -1051,6 +1054,7 @@ SplineSet
  339 610 l 1
  199 610 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: l
@@ -1474,6 +1478,7 @@ SplineSet
  339 610 l 1
  199 610 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: f
@@ -3610,6 +3615,7 @@ LayerCount: 2
 Fore
 Refer: 53 106 N 1 0 0 1 240 0 2
 Refer: 37 105 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: dotlessj
@@ -9342,6 +9348,7 @@ SplineSet
  239 100 l 1
  99 100 l 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

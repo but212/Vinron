@@ -5,7 +5,7 @@ FamilyName: Vinron
 Weight: Italic
 Copyright: Copyright (c) 2018, Jeong-il Seok
 UComments: "2018-2-18: Created with FontForge (http://fontforge.org)"
-Version: 1.000
+Version: 1.001
 ItalicAngle: -11
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1518945957
-ModificationTime: 1526027561
+ModificationTime: 1526087002
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -138,7 +138,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 31 12
+WinInfo: 62 31 12
 BeginPrivate: 10
 BlueValues 23 [-20 0 520 540 720 740]
 OtherBlues 11 [-210 -200]
@@ -445,6 +445,7 @@ LayerCount: 2
 Fore
 Refer: 78 729 N 1 0 0 1 120 -30 2
 Refer: 79 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: n
@@ -638,6 +639,8 @@ Width: 260
 VWidth: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: k
@@ -779,6 +782,7 @@ LayerCount: 2
 Fore
 Refer: 78 729 N 1 0 0 1 120 -30 2
 Refer: 178 567 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -2256,6 +2260,7 @@ LayerCount: 2
 Fore
 Refer: 23 106 N 1 0 0 1 200 0 2
 Refer: 11 105 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Idotaccent
@@ -3690,6 +3695,8 @@ Width: 260
 VWidth: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: ellipsis
@@ -9801,6 +9808,7 @@ SplineSet
  179 100 l 1
  99 100 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
