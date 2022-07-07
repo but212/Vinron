@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Vinron-Regular
 FullName: Vinron
 FamilyName: Vinron
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1518945957
-ModificationTime: 1528279945
+ModificationTime: 1657157920
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -138,7 +138,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 31 12
+WinInfo: 279 31 12
 BeginPrivate: 10
 BlueValues 23 [-20 0 520 540 720 740]
 OtherBlues 11 [-210 -200]
@@ -160,7 +160,7 @@ Grid
   Named: "Capital Height"
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 708
+BeginChars: 65536 712
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -3798,15 +3798,15 @@ VStem: 80 80<-138.89 520>
 LayerCount: 2
 Fore
 SplineSet
--20 -145 m 1
- 0 -148 11 -150 31 -150 c 0
- 71 -150 80 -120 80 -50 c 2
- 80 520 l 1
- 160 520 l 1
- 160 -50 l 2
- 160 -170 130 -220 50 -220 c 0
- 10 -220 -1 -217 -20 -210 c 1
- -20 -145 l 1
+-20 -145 m 5
+ 0 -148 11 -150 31 -150 c 4
+ 71 -150 80 -120 80 -50 c 6
+ 80 520 l 5
+ 160 520 l 5
+ 160 -50 l 6
+ 160 -170 130 -220 50 -220 c 4
+ 10 -220 -1 -217 -20 -210 c 5
+ -20 -145 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -5085,7 +5085,6 @@ SplineSet
  -20 500 -70 440 -150 440 c 0
  -230 440 -280 500 -280 580 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Aring
@@ -5100,7 +5099,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 480 291 2
 Refer: 3 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: aring
@@ -5114,7 +5112,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 425 160 2
 Refer: 49 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -5761,7 +5758,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 500 360 2
 Refer: 47 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uring
@@ -5775,7 +5771,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 430 160 2
 Refer: 25 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: five
@@ -7000,8 +6995,8 @@ Encoding: 223 223 333
 Width: 590
 VWidth: 0
 Flags: W
-HStem: -20 70<261.315 420.991> 0 70<260 330> 355 70<300 385.084> 670 70<214.524 386.279>
-VStem: 80 80<0 617.656> 444 80<481.382 617.196> 470 80<104.134 281.328>
+HStem: -20 70<261.315 420.991> 0 21G<80 160> 355 70<300 385.084> 670 70<220.26 386.279>
+VStem: 80 80<0 605.595> 444 80<481.382 617.196> 470 80<104.134 281.328>
 LayerCount: 2
 Fore
 SplineSet
@@ -7011,20 +7006,19 @@ SplineSet
  300 425 l 1
  400 425 444 490 444 550 c 0
  444 610 400 670 300 670 c 0
- 200 670 160 610 160 550 c 2
+ 200 670 160 600 160 520 c 2
  160 0 l 1
  80 0 l 1
- 80 550 l 2
- 80 640 140 740 300 740 c 0
+ 80 520 l 2
+ 80 630 140 740 300 740 c 0
  460 740 524 640 524 550 c 0x7c
  524 475 486 425 424 392 c 1
  501 356 550 300 550 200 c 0
  550 80 480 -20 350 -20 c 0xba
- 320 -20 288 -10 260 0 c 1
- 260 70 l 1x7a
+ 320 -20 288 -10 260 0 c 1x7a
+ 260 70 l 1
  288 60 320 50 350 50 c 0xba
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guilsinglleft
@@ -9570,7 +9564,6 @@ LayerCount: 2
 Fore
 Refer: 291 714 N 1 0 0 1 280 471 2
 Refer: 253 197 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: aringacute
@@ -9583,7 +9576,6 @@ LayerCount: 2
 Fore
 Refer: 291 714 N 1 0 0 1 225 340 2
 Refer: 254 229 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: AEacute
@@ -10594,7 +10586,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 480 -780 2
 Refer: 3 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E01
@@ -10607,7 +10598,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 405 -800 2
 Refer: 49 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E04
@@ -12458,7 +12448,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 527.5 160 2
 Refer: 48 119 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E99
@@ -12472,7 +12461,6 @@ LayerCount: 2
 Fore
 Refer: 252 730 N 1 0 0 1 420 160 2
 Refer: 51 121 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E9B
@@ -13437,6 +13425,125 @@ SplineSet
  90 450 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uni0186
+Encoding: 390 390 708
+Width: 720
+VWidth: 0
+Flags: W
+HStem: -18 72<241.558 446.985> 670 72<241.558 446.985>
+VStem: 40 84<176.22 242 482 547.78> 596 84<227.58 496.42>
+LayerCount: 2
+Fore
+SplineSet
+680 362 m 0
+ 680 122 535 -18 345 -18 c 0
+ 175 -18 68 84 40 242 c 1
+ 124 242 l 1
+ 145 124 225 54 345 54 c 0
+ 495 54 596 172 596 362 c 0
+ 596 552 495 670 345 670 c 0
+ 225 670 145 600 124 482 c 1
+ 40 482 l 1
+ 68 640 175 742 345 742 c 0
+ 535 742 680 602 680 362 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0182
+Encoding: 386 386 709
+Width: 630
+VWidth: 0
+Flags: W
+HStem: 0 72<164 456.318> 349 72<164 456.318> 648 72<164 506>
+VStem: 80 84<72 349 421 648> 506 84<127.644 292.59>
+LayerCount: 2
+Fore
+SplineSet
+164 72 m 1
+ 406 72 l 2
+ 456 72 506 130 506 210 c 0
+ 506 290 456 349 406 349 c 2
+ 164 349 l 1
+ 164 72 l 1
+506 648 m 13
+ 164 648 l 1
+ 164 421 l 1
+ 410 421 l 2
+ 490 421 590 360 590 210 c 0
+ 590 60 490 0 410 0 c 2
+ 80 0 l 1
+ 80 720 l 1
+ 506 720 l 21
+ 506 648 l 13
+EndSplineSet
+EndChar
+
+StartChar: uni0183
+Encoding: 387 387 710
+Width: 620
+VWidth: 0
+Flags: W
+HStem: -20 70<251.478 409.895> 0 21G<80 160> 470 70<251.478 409.895> 648 72<110 506>
+VStem: 80 80<0 100 149.258 370.742 420 648> 110 50<648 720> 500 80<151.413 368.587>
+LayerCount: 2
+Fore
+SplineSet
+506 720 m 17x36
+ 506 648 l 9
+ 110 648 l 25
+ 110 720 l 25
+ 506 720 l 17x36
+160 260 m 0xba
+ 160 120 240 50 330 50 c 0
+ 420 50 500 120 500 260 c 0
+ 500 400 420 470 330 470 c 0
+ 240 470 160 400 160 260 c 0xba
+80 0 m 1x7a
+ 80 720 l 1x7a
+ 160 720 l 1x76
+ 160 420 l 1
+ 184 486 250 540 350 540 c 0
+ 470 540 580 440 580 260 c 0
+ 580 80 470 -20 350 -20 c 0xba
+ 250 -20 184 34 160 100 c 1
+ 160 0 l 1
+ 80 0 l 1x7a
+EndSplineSet
+EndChar
+
+StartChar: uni0191
+Encoding: 401 401 711
+Width: 580
+VWidth: 0
+Flags: W
+HStem: -220 70<-19.0921 68.4974> 0 21G<80 164> 324 72<164 530> 500 20G<80 164> 648 72<164 560>
+VStem: 80 84<-138.89 324 396 648>
+LayerCount: 2
+Fore
+SplineSet
+-20 -145 m 1
+ 0 -148 11 -150 31 -150 c 0
+ 71 -150 80 -120 80 -50 c 2
+ 80 520 l 1
+ 164 520 l 1
+ 164 -50 l 2
+ 164 -170 130 -220 50 -220 c 0
+ 10 -220 -1 -217 -20 -210 c 1
+ -20 -145 l 1
+80 0 m 1
+ 80 720 l 1
+ 560 720 l 1
+ 560 648 l 1
+ 164 648 l 1
+ 164 396 l 1
+ 530 396 l 1
+ 530 324 l 1
+ 164 324 l 1
+ 164 0 l 1
+ 80 0 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

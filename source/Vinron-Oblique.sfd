@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Vinron-Oblique
 FullName: Vinron Oblique
 FamilyName: Vinron
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1518945957
-ModificationTime: 1528279854
+ModificationTime: 1657158320
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -138,7 +138,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 62 31 12
+WinInfo: 124 31 12
 BeginPrivate: 10
 BlueValues 23 [-20 0 520 540 720 740]
 OtherBlues 11 [-210 -200]
@@ -152,7 +152,7 @@ StemSnapV 4 [80]
 ExpansionFactor 4 0.06
 EndPrivate
 TeXData: 1 0 0 314572 157286 104857 545260 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 711
+BeginChars: 65536 715
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -14234,6 +14234,124 @@ SplineSet
  597 121 440 -20 286 -20 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uni0186
+Encoding: 390 390 711
+Width: 720
+VWidth: 0
+Flags: W
+HStem: -18 72<256.294 462.266> 670 72<368.241 570.002>
+VStem: 87 84<141.416 242> 675 85<318.495 561.288>
+LayerCount: 2
+Fore
+SplineSet
+750 362 m 0
+ 703 122 532 -18 342 -18 c 0
+ 175 -18 87 80 87 234 c 2
+ 87 242 l 1
+ 171 242 l 1
+ 171 237 l 2
+ 171 122 237 54 355 54 c 0
+ 505 54 629 172 666 362 c 0
+ 672 394 675 423 675 450 c 0
+ 675 587 600 670 475 670 c 0
+ 355 670 262 600 218 482 c 1
+ 134 482 l 1
+ 193 640 319 742 489 742 c 0
+ 651 742 760 640 760 462 c 0
+ 760 431 757 398 750 362 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0182
+Encoding: 386 386 712
+Width: 630
+VWidth: 0
+Flags: W
+HStem: 0 72<178 474.203> 349 72<246 520.933> 648 72<290 632>
+VStem: 550 87<158.298 317.788>
+LayerCount: 2
+Fore
+SplineSet
+420 72 m 2
+ 477 72 550 149 550 245 c 0
+ 550 307 516 349 474 349 c 2
+ 232 349 l 1
+ 178 72 l 1
+ 420 72 l 2
+632 648 m 9
+ 290 648 l 1
+ 246 421 l 1
+ 492 421 l 2
+ 561 421 637 376 637 266 c 0
+ 637 249 635 230 631 210 c 0
+ 602 60 490 0 410 0 c 2
+ 80 0 l 1
+ 220 720 l 1
+ 646 720 l 17
+ 632 648 l 9
+EndSplineSet
+EndChar
+
+StartChar: uni0183
+Encoding: 387 387 713
+Width: 620
+VWidth: 0
+Flags: W
+HStem: -20 70<264.371 424.233> 0 21G<80 163.8> 470 70<353.716 497.024> 648 72<286 632>
+VStem: 557 81<204.463 407.976>
+LayerCount: 2
+Fore
+SplineSet
+80 0 m 1x78
+ 220 720 l 1
+ 646 720 l 1
+ 632 648 l 1
+ 286 648 l 1
+ 242 420 l 1
+ 279 486 355 540 455 540 c 0
+ 557 540 638 467 638 334 c 0
+ 638 311 636 287 631 260 c 0
+ 596 80 466 -20 346 -20 c 0xb8
+ 246 -20 190 34 179 100 c 1
+ 160 0 l 1
+ 80 0 l 1x78
+211 260 m 0
+ 207 238 204 218 204 200 c 0
+ 204 100 264 50 340 50 c 0
+ 430 50 524 120 551 260 c 0
+ 555 282 557 302 557 320 c 0
+ 557 420 497 470 421 470 c 0
+ 331 470 238 400 211 260 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0191
+Encoding: 401 401 714
+Width: 580
+VWidth: 0
+Flags: W
+HStem: -220 70<-50.0593 42.8549> 324 72<241 593> 648 72<290 686>
+LayerCount: 2
+Fore
+SplineSet
+-48 -145 m 1
+ -29 -148 -18 -150 2 -150 c 0
+ 42 -150 56 -120 70 -50 c 2
+ 220 720 l 1
+ 700 720 l 1
+ 686 648 l 1
+ 290 648 l 1
+ 241 396 l 1
+ 607 396 l 1
+ 593 324 l 1
+ 227 324 l 1
+ 154 -50 l 2
+ 131 -170 87 -220 7 -220 c 0
+ -33 -220 -43 -217 -61 -210 c 1
+ -48 -145 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
