@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+      - "[0-9]*"
 
 jobs:
   release:
@@ -19,9 +20,11 @@ jobs:
           fetch-depth: 0
 
       - name: Extract Release Notes
-          id: extract_notes
+        id: extract_notes
         run: |
-          TAG_VERSION=${GITHUB_REF#refs/tags/v}
+          # Extract version from tag (supports both v1.2.3 and 1.2.3)
+          VERSION=${GITHUB_REF#refs/tags/}
+          TAG_VERSION=${VERSION#v}
           echo "Extracting notes for version: ${TAG_VERSION}"
 
           if ! grep -q "## \[${TAG_VERSION}\]" CHANGELOG.md; then
