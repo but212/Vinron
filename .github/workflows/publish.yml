@@ -1,0 +1,48 @@
+name: Release Vinron
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract Release Notes
+          id: extract_notes
+        run: |
+          TAG_VERSION=${GITHUB_REF#refs/tags/v}
+          echo "Extracting notes for version: ${TAG_VERSION}"
+
+          if ! grep -q "## \[${TAG_VERSION}\]" CHANGELOG.md; then
+            echo "Error: CHANGELOG.md does not contain an entry for version ${TAG_VERSION}"
+            exit 1
+          fi
+
+          # Extract everything between this version header and the next header
+          awk "/## \[${TAG_VERSION}\]/{flag=1;next}/## \[/{flag=0}flag" CHANGELOG.md > RELEASE_NOTES.md
+
+          echo "tag_version=${TAG_VERSION}" >> $GITHUB_OUTPUT
+
+      - name: Create Font Archive
+        run: |
+          VERSION=${{ steps.extract_notes.outputs.tag_version }}
+          zip -r "Vinron-v${VERSION}.zip" otf ttf LICENSE.md README.md Vinron.png
+
+      - name: GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: RELEASE_NOTES.md
+          files: |
+            Vinron-v${{ steps.extract_notes.outputs.tag_version }}.zip
+          generate_release_notes: true
